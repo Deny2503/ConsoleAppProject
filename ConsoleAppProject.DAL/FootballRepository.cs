@@ -19,7 +19,7 @@ namespace ConsoleAppProject.DAL
             _context.Teams.Add(team);
             _context.SaveChanges();
         }
-        public void AddRange(List<Stream> streams)
+        public void AddRange(List<FootballTeam> streams)
         {
             _context.AddRange(streams);
             _context.SaveChanges();

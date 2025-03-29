@@ -7,13 +7,9 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            var footRep = new FootballRepository();
+            var menuService = new MenuService();
+            menuService.Show();
 
-            foreach (var team in footRep.GetAll())
-            {
-                Console.WriteLine($"Team {team.TeamName} from {team.City}" +
-                    $", Wins {team.Wins}, Losses {team.Losses}, Draw {team.Draws}");
-            }
 
 
         }
