@@ -16,5 +16,7 @@ namespace ConsoleAppProject.DAL.Entities
         public int Draws { get; set; }
         public int Goal { get; set; }
         public int GoalConceded { get; set; }
+        public List<Player> Players { get; set; }
+        public List<Match> Matches { get; set; }
     }
 }

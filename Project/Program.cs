@@ -9,9 +9,6 @@ namespace Project
         {
             var menuService = new MenuService();
             menuService.Show();
-
-
-
         }
     }
 }
